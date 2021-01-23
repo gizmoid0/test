@@ -1,3 +1,3 @@
 # comment
-clear-screen
+clear
 write-host ("Hello World")
