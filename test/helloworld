@@ -1,2 +1,2 @@
 write-host ("Hello World")
-Write-host ("Hellow World 2")
+Write-host ("Hello World 2")
