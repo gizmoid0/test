@@ -1,3 +1,6 @@
 # comment
 clear
-write-host ("Hello World")
+# Connect-AzAccount # connects to Azure Account
+$resources = Get-AzResourceGroup
+
+$resources | Select-Object ResourceGroupName, Location, Tags
